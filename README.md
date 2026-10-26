@@ -22,7 +22,7 @@ try the charting project before working with the current data.
 
 The data files are attached to the
 [Releases](https://github.com/ibosoftnet/Ibosoft-AIS-Navigation-Data-Set-Sample/releases)
-of this repository (one release per sample cycle).
+of this repository (one release per schema update or fix).
 
 ## License
 
@@ -31,19 +31,26 @@ See [LICENSE](LICENSE).
 
 ---
 
-## Türkçe
+# Ibosoft AIS – Seyrüsefer Veri Seti (Örnek)
 
-Bu depo, Ibosoft AIS Navigasyon Veri Seti'nin (AIXM 5.2 + GeoPackage)
-**yalnızca deneme amaçlı bir örneğini** içerir.
+Bu depo, yalnızca **test ve değerlendirme amacıyla** kullanılmak üzere Ibosoft AIS Seyrüsefer Veri Seti'nin (AIXM 5.2 + GeoPackage) **örnek bir sürümünü** sunar.
 
-> ⚠️ **Operasyonel kullanım için değildir.** Buradaki veri örnektir, güncel
-> tutulmaz ve geçerli havacılık bilgisi olarak kabul edilmez.
+> ⚠️ **Operasyonel kullanım için uygun değildir.** Bu depodaki veriler örnek niteliğindedir, güncel tutulmamaktadır ve geçerli veya güncel havacılık bilgisi olarak kabul edilmemelidir.
 
-Aktif olarak güncellenen asıl veri **Ibosoft AIS Developer Portal**'da
-yayımlanır: <https://ibonav.aero/>
+## Güncel verilere nereden ulaşabilirim?
 
-[Ibosoft Aeronautical Charting](https://github.com/ibosoftnet/aeronautical-charting)
-bu veri setiyle uyumlu hazırlanmıştır; örnek veri, asıl veriye geçmeden önce
-projeyi denemek için kullanılabilir.
+Aktif olarak bakımı yapılan ve güncel tutulan veri seti, **Ibosoft AIS Geliştirici Portalı** üzerinden yayımlanmaktadır: https://ibonav.aero/
 
-Veri dosyaları bu deponun **Releases** bölümündedir. Lisans: CC BY-SA 4.0.
+## Ibosoft Aeronautical Charting ile kullanım
+
+[Ibosoft Aeronautical Charting](https://github.com/ibosoftnet/aeronautical-charting) projesi, bu veri setiyle uyumlu olacak şekilde hazırlanmıştır. Güncel verilerle çalışmaya başlamadan önce haritalandırma projesini denemek için bu örnek veri setini kullanabilirsiniz.
+
+## İndirme
+
+Veri dosyaları, bu deponun [Releases](https://github.com/ibosoftnet/Ibosoft-AIS-Navigation-Data-Set-Sample/releases) bölümünde yayımlanmaktadır. Her sürüm, şema güncellemesi veya düzeltmesi için ayrı bir sürüm olarak sunulur.
+
+## Lisans
+
+Creative Commons Atıf-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-SA 4.0).
+
+Bkz. [LICENSE](LICENSE).
